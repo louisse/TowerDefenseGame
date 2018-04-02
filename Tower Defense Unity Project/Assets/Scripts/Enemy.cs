@@ -11,6 +11,9 @@ public class Enemy : MonoBehaviour {
 	public float startHealth = 100;
 	private float health;
 
+	public bool IsFlying = false;
+	public bool IsOnGround = true;
+
 	public int worth = 50;
 
 	public GameObject deathEffect;
